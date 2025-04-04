@@ -1,0 +1,12 @@
+Extract these fields from bank statement as JSON:
+- customerName (string)
+- email (string)
+- accountNumber (string)
+- openingBalance (number)
+- closingBalance (number)
+- statementPeriod (object with startDate/endDate)
+
+Return ONLY valid JSON with these exact field names.
+
+Statement:
+{{text}}
